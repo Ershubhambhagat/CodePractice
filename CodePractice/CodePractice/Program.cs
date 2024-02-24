@@ -4,7 +4,10 @@ using System.Security.AccessControl;
 
 Console.WriteLine("Hello, World!");
  Car audi=new("audi");
- Car BMW=new("BMW");
+ Car BMW=new("BMW",3232);
+audi.Deatais();
+BMW.Deatais();
+
 
 audi.Drive();
 Console.WriteLine("Type 1 for Stop");

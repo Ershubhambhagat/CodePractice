@@ -9,18 +9,25 @@ namespace CodePractice
     internal class Car
     {
         private string _name;
-        public Car(string name)
+        private int _HP;
+        public Car(string name,int hp=1)
         {
-            _name = name;   
+            //Member Variable 
+            _name = name;   //This field is used to storeing data
+            _HP = hp;
             Console.WriteLine("This is going to call Car "+name);
         }
-        public void Drive()//Method
+        public void Drive()// Member Method
         {
             Console.WriteLine(_name+"Drive");
         }
-        public void Stop()//Method
+        public void Stop()//Member Method 
         {
             Console.WriteLine(_name+"Stop");
+        }
+        public void Deatais()
+        {
+            Console.WriteLine(_name +" is a car and HP is "+_HP );
         }
     }
 }
