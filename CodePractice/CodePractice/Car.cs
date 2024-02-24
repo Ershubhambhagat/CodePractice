@@ -1,26 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace CodePractice
 {
     internal class Car
     {
-        public Car()
+        private string _name;
+        public Car(string name)
         {
-            Console.WriteLine("This is going to call Car ");
+            _name = name;   
+            Console.WriteLine("This is going to call Car "+name);
         }
         public void Drive()//Method
         {
-            Console.WriteLine("Drive");
-
-
+            Console.WriteLine(_name+"Drive");
         }
         public void Stop()//Method
         {
-            Console.WriteLine("Stop");
+            Console.WriteLine(_name+"Stop");
         }
     }
 }

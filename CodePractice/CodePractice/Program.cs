@@ -3,7 +3,9 @@ using System.Net.Http.Headers;
 using System.Security.AccessControl;
 
 Console.WriteLine("Hello, World!");
- Car audi=new();
+ Car audi=new("audi");
+ Car BMW=new("BMW");
+
 audi.Drive();
 Console.WriteLine("Type 1 for Stop");
 string userInput=Console.ReadLine();
