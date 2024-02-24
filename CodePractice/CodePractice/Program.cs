@@ -4,7 +4,7 @@ using System.Security.AccessControl;
 
 Console.WriteLine("Hello, World!");
  Car audi=new("audi");
- Car BMW=new("BMW",3232);
+ Car BMW=new("BMW");
 audi.Deatais();
 BMW.Deatais();
 
