@@ -12,6 +12,8 @@ namespace CodePractice
         //Private Member var /Field 
         private string _name;
         private int _HP;
+
+        public int MaxSpeed { get; set; }
         #region Ctor
         public Car(string name, int hp = 1)
         {
