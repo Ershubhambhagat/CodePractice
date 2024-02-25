@@ -14,6 +14,8 @@ namespace CodePractice
         private int _HP;
 
         public int MaxSpeed { get; set; }
+        public int Waight { get; } = 1000;//Set Accesser only
+
         #region Ctor
         public Car(string name, int hp = 1)
         {

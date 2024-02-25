@@ -34,7 +34,13 @@ MyCar.Deatais();
 MyCar.Name = "Something";
 Console.WriteLine(MyCar + "is my car 2");
 MyCar.Deatais();
-MyCar.MaxSpeed = 6884;
+MyCar.MaxSpeed = 6884; //Now we can  set 
 Console.WriteLine("my car max speed is " + MyCar.MaxSpeed);
+
+//MyCar.Waight = 6884; //read only prop
+Console.WriteLine("my car Waight  is " + MyCar.Waight);
+
+
+
 #endregion
 
