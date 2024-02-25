@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePractice", "CodePractic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DArray", "Array\2DArray.csproj", "{F6478791-60E5-45CD-980A-7595BCF9C5BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe Game", "TicTacToe Game\TicTacToe Game.csproj", "{E017DB5B-B957-4ED4-835B-B1B7662DDD84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F6478791-60E5-45CD-980A-7595BCF9C5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6478791-60E5-45CD-980A-7595BCF9C5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6478791-60E5-45CD-980A-7595BCF9C5BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E017DB5B-B957-4ED4-835B-B1B7662DDD84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E017DB5B-B957-4ED4-835B-B1B7662DDD84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E017DB5B-B957-4ED4-835B-B1B7662DDD84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E017DB5B-B957-4ED4-835B-B1B7662DDD84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
