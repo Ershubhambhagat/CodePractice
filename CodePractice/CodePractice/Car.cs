@@ -9,9 +9,10 @@ namespace CodePractice
 {
     internal class Car
     {
+        //Private Member var /Field 
         private string _name;
         private int _HP;
-
+        #region Ctor
         public Car(string name, int hp = 1)
         {
             //Member Variable 
@@ -24,21 +25,21 @@ namespace CodePractice
         {
             _name = name;
             _HP = hp;
-
         }
         //Default CTOR 
-
-        //Ctor 
-
         public Car()
         {
             _name = "car";  
             _HP = 323;
-            
         }
-    
-        
+        #endregion
+
         #region Member Method
+        public int GetHP()
+        {
+            return _HP*_HP;
+        }
+        
         public void Drive()// Member Method
         {
             Console.WriteLine(_name+"Drive");
@@ -50,6 +51,16 @@ namespace CodePractice
         public void Deatais()
         {
             Console.WriteLine(_name +" is a car and HP is "+_HP );
+        }
+        #endregion
+
+
+        //the public Properties 
+        #region //using this we can modified private member  or var
+        public string Name
+        {
+            get { return _name; }//get accessor
+            set { _name = value; }//set accessor
         }
         #endregion
     }
