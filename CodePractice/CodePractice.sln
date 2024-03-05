@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoggedArray", "GoggedArray\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Params", "Params\Params.csproj", "{B2C9F810-78E8-40CC-898C-FAD04A88D479}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find Minium Number Using Parems", "Find Minium Number Using Parems\Find Minium Number Using Parems.csproj", "{0FCDAD8D-5584-4A51-A767-B61B273B5221}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B2C9F810-78E8-40CC-898C-FAD04A88D479}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2C9F810-78E8-40CC-898C-FAD04A88D479}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2C9F810-78E8-40CC-898C-FAD04A88D479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FCDAD8D-5584-4A51-A767-B61B273B5221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FCDAD8D-5584-4A51-A767-B61B273B5221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FCDAD8D-5584-4A51-A767-B61B273B5221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FCDAD8D-5584-4A51-A767-B61B273B5221}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
