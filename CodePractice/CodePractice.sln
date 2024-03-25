@@ -5,11 +5,19 @@ VisualStudioVersion = 16.0.34601.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodePractice", "CodePractice\CodePractice.csproj", "{B97463DF-FCE2-4D6F-A033-D874BA87D2A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2DArray", "Array\2DArray.csproj", "{F6478791-60E5-45CD-980A-7595BCF9C5BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DArray", "Array\2DArray.csproj", "{F6478791-60E5-45CD-980A-7595BCF9C5BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe Game", "TicTacToe Game\TicTacToe Game.csproj", "{E017DB5B-B957-4ED4-835B-B1B7662DDD84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe Game", "TicTacToe Game\TicTacToe Game.csproj", "{E017DB5B-B957-4ED4-835B-B1B7662DDD84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoggedArray", "GoggedArray\JoggedArray.csproj", "{EDCC8DCD-6013-48F2-9E80-A8534E22263E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoggedArray", "GoggedArray\JoggedArray.csproj", "{EDCC8DCD-6013-48F2-9E80-A8534E22263E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Params", "Params\Params.csproj", "{B2C9F810-78E8-40CC-898C-FAD04A88D479}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find Minium Number Using Parems", "Find Minium Number Using Parems\Find Minium Number Using Parems.csproj", "{0FCDAD8D-5584-4A51-A767-B61B273B5221}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayLists", "ArrayLists\ArrayLists.csproj", "{53FC8306-ECD3-4F75-A2DA-A37DCEAB0DCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event and MultiCast Delegates", "Event and MultiCast DElegates\Event and MultiCast Delegates.csproj", "{73A5887F-C6A5-41FF-8E7C-E89DEB3F8801}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +37,6 @@ Global
 		{E017DB5B-B957-4ED4-835B-B1B7662DDD84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E017DB5B-B957-4ED4-835B-B1B7662DDD84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E017DB5B-B957-4ED4-835B-B1B7662DDD84}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EDCC8DCD-6013-48F2-9E80-A8534E22263E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EDCC8DCD-6013-48F2-9E80-A8534E22263E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EDCC8DCD-6013-48F2-9E80-A8534E22263E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EDCC8DCD-6013-48F2-9E80-A8534E22263E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
